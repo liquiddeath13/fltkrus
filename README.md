@@ -11,10 +11,13 @@ Finally, you need to compile project (you can use .sln file for MSVS, which loca
 # How to use?
 You should set label or title (for window), with method .label(const std::string&)
 Example:
+
 Fl_Button (pointer)btn = new Fl_Button(x, y, w, h, "");
+
 btn->label(std::string("надпись на кнопке на русском языке"));
 
 Fl_Window (pointer)win = new Fl_Window(x, y, w, h, "");
+
 win->label(std::string("заголовок окна на русском языке"));
 
 # TODO
